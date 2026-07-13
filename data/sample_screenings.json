@@ -1,0 +1,77 @@
+[
+  {
+    "screening_id": "SCR-2026-0001",
+    "patient_id": "PAT-4402",
+    "zip_code": "90210",
+    "language": "English",
+    "timestamp": "2026-07-09T08:15:30Z",
+    "completed_by": "U011A8B2C3D",
+    "raw_responses": {
+      "housing": "We have an eviction notice because rent increased by $300.",
+      "food": "I rely on food stamps but they run out by the 3rd week of the month.",
+      "transportation": "I have a car, so transportation is fine.",
+      "utilities": "No shut-off notices, but electricity is very expensive.",
+      "safety": "Yes, I feel safe at home."
+    },
+    "classification": {
+      "housing_insecurity": true,
+      "food_insecurity": true,
+      "transportation_barrier": false,
+      "utility_instability": false,
+      "safety_concern": false,
+      "urgency_score": 4,
+      "need_explanation": "Patient faces active threat of eviction due to rent increase and reports running out of food stamps before month end."
+    },
+    "status": "Completed"
+  },
+  {
+    "screening_id": "SCR-2026-0002",
+    "patient_id": "PAT-1928",
+    "zip_code": "90212",
+    "language": "Spanish",
+    "timestamp": "2026-07-09T09:42:15Z",
+    "completed_by": "U011A8B2C3D",
+    "raw_responses": {
+      "housing": "We rent an apartment, it is stable.",
+      "food": "No problems with food, we eat fresh vegetables.",
+      "transportation": "Sometimes I miss doctor appointments because I do not have a driver's license and public transit takes 2 hours.",
+      "utilities": "No utility problems.",
+      "safety": "No concerns."
+    },
+    "classification": {
+      "housing_insecurity": false,
+      "food_insecurity": false,
+      "transportation_barrier": true,
+      "utility_instability": false,
+      "safety_concern": false,
+      "urgency_score": 2,
+      "need_explanation": "Patient has stable housing and food but misses appointments due to lack of personal transportation and long public transit times."
+    },
+    "status": "Completed"
+  },
+  {
+    "screening_id": "SCR-2026-0003",
+    "patient_id": "PAT-7703",
+    "zip_code": "90210",
+    "language": "English",
+    "timestamp": "2026-07-09T14:22:00Z",
+    "completed_by": "U022D9E8F7G",
+    "raw_responses": {
+      "housing": "Everything is fine with my house.",
+      "food": "No food issues.",
+      "transportation": "I drive my own truck.",
+      "utilities": "No utility issues.",
+      "safety": "I feel safe."
+    },
+    "classification": {
+      "housing_insecurity": false,
+      "food_insecurity": false,
+      "transportation_barrier": false,
+      "utility_instability": false,
+      "safety_concern": false,
+      "urgency_score": 1,
+      "need_explanation": "No SDoH or social need concerns flagged across any of the five domains."
+    },
+    "status": "Completed"
+  }
+]

@@ -1,0 +1,43 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Project configuration & secrets
+.env
+.env.local
+.env.*.local
+config/secrets.json
+
+# Local database / log files
+*.db
+*.log
+data/raw/
+
+# Package manager outputs
+node_modules/
+dist/
+build/
+*.egg-info/

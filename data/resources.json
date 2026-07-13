@@ -1,0 +1,58 @@
+[
+  {
+    "resource_id": "RES-HOU-001",
+    "name": "Beacon Emergency Housing & Eviction Relief",
+    "domain": "housing",
+    "contact": "555-0100 (eviction hotline)",
+    "address": "452 Sentinel Way, Metro City, 90210",
+    "description": "Provides immediate rental assistance grants for eviction prevention and fast tracking to temporary emergency shelters."
+  },
+  {
+    "resource_id": "RES-HOU-002",
+    "name": "Bridgeport Affordable Housing Coalition",
+    "domain": "housing",
+    "contact": "555-0105",
+    "address": "778 Landmark Ave, Metro City, 90210",
+    "description": "Helps patients apply for long-term low-income public housing and Section 8 housing vouchers."
+  },
+  {
+    "resource_id": "RES-FOO-001",
+    "name": "Community Table Food Bank",
+    "domain": "food",
+    "contact": "555-0210",
+    "address": "12 Breadbasket Ln, Metro City, 90210",
+    "description": "Weekly pantry boxes containing shelf-stable foods, fresh produce, and baby formula. Also provides SNAP application assistance."
+  },
+  {
+    "resource_id": "RES-FOO-002",
+    "name": "Meals on Wheels Metro",
+    "domain": "food",
+    "contact": "555-0220",
+    "address": "900 Delivery Blvd, Metro City, 90212",
+    "description": "Delivers hot, nutritionally balanced meals directly to elderly, homebound, or disabled patients who cannot cook for themselves."
+  },
+  {
+    "resource_id": "RES-TRA-001",
+    "name": "RideCare Med-Transit Services",
+    "domain": "transportation",
+    "contact": "555-0300",
+    "address": "66 Wheelhouse Rd, Metro City, 90210",
+    "description": "Free or low-cost non-emergency medical transportation (NEMT) rides for patients needing travel to doctor appointments or pharmacies."
+  },
+  {
+    "resource_id": "RES-UTI-001",
+    "name": "HEHEAP State Energy Grant Admin",
+    "domain": "utilities",
+    "contact": "555-0450",
+    "address": "33 Government Plz, Metro City, 90210",
+    "description": "Assists low-income households with paying electricity, gas, and heating bills, preventing seasonal shutoffs."
+  },
+  {
+    "resource_id": "RES-SAF-001",
+    "name": "Safe Haven Crisis Support & Women's Shelter",
+    "domain": "safety",
+    "contact": "555-0911 (24/7 crisis line)",
+    "address": "Confidential Location",
+    "description": "Provides immediate emergency shelter, safety planning, and legal advocacy for victims of domestic violence or elder abuse."
+  }
+]

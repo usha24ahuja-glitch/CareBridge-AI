@@ -1,0 +1,39 @@
+[
+  {
+    "referral_id": "REF-2026-0001",
+    "screening_id": "SCR-2026-0001",
+    "domain": "housing",
+    "assigned_channel": "#referral-housing",
+    "status": "Pending",
+    "matched_resources": [
+      "RES-HOU-001",
+      "RES-HOU-003"
+    ],
+    "created_at": "2026-07-09T08:16:00Z",
+    "updated_at": "2026-07-09T08:16:00Z"
+  },
+  {
+    "referral_id": "REF-2026-0002",
+    "screening_id": "SCR-2026-0001",
+    "domain": "food",
+    "assigned_channel": "#referral-food",
+    "status": "Resolved",
+    "matched_resources": [
+      "RES-FOO-001"
+    ],
+    "created_at": "2026-07-09T08:16:15Z",
+    "updated_at": "2026-07-09T11:30:00Z"
+  },
+  {
+    "referral_id": "REF-2026-0003",
+    "screening_id": "SCR-2026-0002",
+    "domain": "transportation",
+    "assigned_channel": "#referral-transport",
+    "status": "Pending",
+    "matched_resources": [
+      "RES-TRA-001"
+    ],
+    "created_at": "2026-07-09T09:43:00Z",
+    "updated_at": "2026-07-09T09:43:00Z"
+  }
+]

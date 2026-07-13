@@ -1,0 +1,166 @@
+[
+  {
+    "beneficiary_id": "C1122",
+    "flags": [
+      "Housing",
+      "Food",
+      "Transportation",
+      "Utilities"
+    ],
+    "timestamp": "2026-07-11T20:17:10.261156+00:00",
+    "screened_by": "U0BFVPM7Q77"
+  },
+  {
+    "beneficiary_id": "A4455",
+    "flags": [
+      "Housing",
+      "Food"
+    ],
+    "timestamp": "2026-07-11T20:22:33.784384+00:00",
+    "screened_by": "U0BFVPM7Q77"
+  },
+  {
+    "beneficiary_id": "Anonymous",
+    "flags": [],
+    "timestamp": "2026-07-11T20:33:16.474109+00:00",
+    "screened_by": "U0BFVPM7Q77",
+    "status": "Cancelled"
+  },
+  {
+    "beneficiary_id": "R3456",
+    "flags": [
+      "Housing"
+    ],
+    "timestamp": "2026-07-11T20:33:57.197748+00:00",
+    "screened_by": "U0BFVPM7Q77",
+    "status": "Completed"
+  },
+  {
+    "beneficiary_id": "A8899",
+    "flags": [
+      "Housing",
+      "Food"
+    ],
+    "timestamp": "2026-07-11T20:56:26.477351+00:00",
+    "screened_by": "U0BFVPM7Q77",
+    "status": "Completed"
+  },
+  {
+    "beneficiary_id": "Q1122",
+    "flags": [
+      "Transportation",
+      "Utilities",
+      "Safety"
+    ],
+    "timestamp": "2026-07-11T21:02:03.426297+00:00",
+    "screened_by": "U0BFVPM7Q77",
+    "status": "Completed"
+  },
+  {
+    "beneficiary_id": "Q4567",
+    "flags": [
+      "Housing",
+      "Food",
+      "Transportation",
+      "Utilities",
+      "Safety"
+    ],
+    "timestamp": "2026-07-11T21:22:37.022404+00:00",
+    "screened_by": "U0BFVPM7Q77",
+    "status": "Completed",
+    "followup_responses": {
+      "Housing": {
+        "housing_staying": "In a shelter",
+        "housing_referral_request": "Yes"
+      },
+      "Food": {
+        "food_assistance_access": "No"
+      },
+      "Transportation": {
+        "transport_reliability": "No"
+      },
+      "Utilities": {
+        "utility_at_risk": "Multiple",
+        "utility_contacted": "No"
+      },
+      "Safety": {
+        "safety_safe_place": "No"
+      }
+    }
+  },
+  {
+    "beneficiary_id": "1234",
+    "flags": [
+      "Housing",
+      "Safety"
+    ],
+    "timestamp": "2026-07-11T21:32:11.009854+00:00",
+    "screened_by": "U0BFVPM7Q77",
+    "status": "Completed",
+    "followup_responses": {
+      "Housing": {
+        "housing_staying": "In a shelter",
+        "housing_referral_request": "Yes"
+      },
+      "Safety": {
+        "safety_safe_place": "No"
+      }
+    }
+  },
+  {
+    "beneficiary_id": "abcd",
+    "flags": [
+      "Housing",
+      "Safety"
+    ],
+    "timestamp": "2026-07-11T21:39:49.841404+00:00",
+    "screened_by": "U0BFVPM7Q77",
+    "status": "Completed",
+    "followup_responses": {
+      "Housing": {
+        "housing_staying": "With others temporarily",
+        "housing_referral_request": "Yes"
+      },
+      "Safety": {
+        "safety_safe_place": "No"
+      }
+    }
+  },
+  {
+    "beneficiary_id": "Q5566",
+    "flags": [
+      "Housing"
+    ],
+    "timestamp": "2026-07-12T19:59:34.980530+00:00",
+    "screened_by": "U0BFVPM7Q77",
+    "status": "Completed",
+    "followup_responses": {
+      "Housing": {
+        "housing_staying": "With others temporarily",
+        "housing_referral_request": "Yes"
+      }
+    }
+  },
+  {
+    "beneficiary_id": "B5566",
+    "flags": [],
+    "timestamp": "2026-07-12T20:02:17.592802+00:00",
+    "screened_by": "U0BFVPM7Q77",
+    "status": "Completed",
+    "followup_responses": {}
+  },
+  {
+    "beneficiary_id": "Anonymous",
+    "flags": [],
+    "timestamp": "2026-07-12T20:51:05.204218+00:00",
+    "screened_by": "U0BFVPM7Q77",
+    "status": "Cancelled"
+  },
+  {
+    "beneficiary_id": "A7878",
+    "flags": [],
+    "timestamp": "2026-07-12T20:52:17.976994+00:00",
+    "screened_by": "U0BFVPM7Q77",
+    "status": "Cancelled"
+  }
+]
