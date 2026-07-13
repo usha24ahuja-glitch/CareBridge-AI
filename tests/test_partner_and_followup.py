@@ -153,3 +153,24 @@ def test_route_referrals_safety_non_urgent():
     assert "Safe place to stay currently:" not in msg_text
     assert "SafeHaven Family Support Services" in msg_text
     assert "Beacon Crisis Shelter Network" not in msg_text
+def test_route_referrals_utilities():
+    """Verifies that Utilities domain mapping correctly routes and includes BrightPath Utility Assistance Fund."""
+    client_mock = MagicMock()
+    
+    flags = ["Utilities"]
+    summary = "Utility shutoff risk flagged."
+    
+    route_referrals(
+        client=client_mock,
+        beneficiary_id="C777",
+        flags=flags,
+        summary=summary,
+        timestamp_str="2026-07-12 02:50 AM"
+    )
+    
+    assert client_mock.chat_postMessage.call_count == 1
+    call_kwargs = client_mock.chat_postMessage.call_args.kwargs
+    assert call_kwargs["channel"] == "#utility-safety-referrals"
+    
+    msg_text = call_kwargs["text"]
+    assert "Partner Agency: BrightPath Utility Assistance Fund" in msg_text
